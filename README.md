@@ -2,13 +2,13 @@
 # Task Master: Manage Your Project Tasks Efficiently
 TaskMaster is your ultimate project management ally. With a sleek, dynamic interface, powered by jQuery and Day.js, TaskMaster makes organizing tasks a breeze. Drag, drop, and conquer your to-do list effortlessly. Love TaskMaster? Show your support!
 
-## What I Learned From This Project
+### What I Learned From This Project
 This project enhanced my skills in using jQuery for dynamic HTML and CSS updates, working with the Day.js library for date manipulations, and implementing client-side storage solutions using localStorage.
 
-# Project Overview
+## Project Overview
 Task Master is a project management tool designed to help team members organize and track the progress of their tasks efficiently. The main features include adding tasks, managing their states of progress, and tracking deadlines.
 
-## Details 
+### Details 
 The main tasks and objectives of the project included developing a responsive user interface, integrating the Day.js library for handling dates, and ensuring persistent storage of tasks using localStorage. Key functionalities involved creating, updating, deleting, and dragging tasks across different progress states.
 
 ## Requirements
@@ -46,11 +46,7 @@ The main tasks and objectives of the project included developing a responsive us
 ### 3. Mockup:
     The design mockup features a clean, minimalist interface with columns representing different task progress states. Tasks are color-coded based on their deadlines, and the modal dialog allows for easy task creation and editing.
 
-<details>
-<summary>Mockup .gif<summary>
-
 ![Mockup](/assets/img/mockup.gif)
-</details>
 
 ### 4. Instructions for Submission:
     Submit the GitHub repository link and the URL of the deployed application. Ensure all documentation is up to date.
@@ -59,10 +55,10 @@ The main tasks and objectives of the project included developing a responsive us
 ## Submission
 
 GitHub repo
-    - [Link to GitHub repository](https://github.com/iggys4ur/task-master)
+- https://github.com/iggys4ur/task-master
 
-Hosted Webpage
-    - [Link to hosted webpage](https://iggys4ur.github.io/task-master)
+Deployed Application
+- https://iggys4ur.github.io/task-master
 
 ---
 
