@@ -1,6 +1,6 @@
 
 # [Module 5] Task Master: Manage Your Project Tasks Efficiently
-TaskMaster is your ultimate project management ally. With a sleek, dynamic interface, powered by jQuery and Day.js, TaskMaster makes organizing tasks a breeze. Drag, drop, and conquer your to-do list effortlessly. Love TaskMaster? Show your support!
+TaskMaster is your ultimate project management ally. With a sleek, dynamic interface, powered by jQuery and Day.js, TaskMaster makes organizing tasks a breeze. Drag, drop, and conquer your to-do list effortlessly.
 
 ### What I Learned From This Project
 This project enhanced my skills in using jQuery for dynamic HTML and CSS updates, working with the Day.js library for date manipulations, and implementing client-side storage solutions using localStorage.
@@ -77,16 +77,16 @@ Visit the [Deployed Application](https://iggys4ur.github.io/mod-05_task-master/)
 <p>&nbsp;</p>
 <p>Main dashboard displaying the task list and navigation menu.</p>
 
-![alt text](./assets/images/screenshot1.png)
+![alt text](./assets/img/task-list.png)
 <p>&nbsp;</p>
 <p>Task creation modal where users can add new tasks with priority and deadline options.</p>
 
-![alt text](./assets/images/screenshot2.png)
+![alt text](./assets/img/task-creation.png)
 </details>
 &nbsp;
 
 ## Credits
-Special thanks to the following resources and individuals for their support and guidance.
+Special thanks to the following resources.
 - [Stack Overflow](https://stackoverflow.com/)
 - [Reddit](https://reddit.com/)
 - [GitHub Community Discussions](https://github.com/orgs/community/discussions/)
