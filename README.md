@@ -55,10 +55,10 @@ The main tasks and objectives of the project included developing a responsive us
 ## Submission
 
 GitHub repo
-- https://github.com/iggys4ur/task-master
+- https://github.com/iggys4ur/mod-05_task-master/
 
 Deployed Application
-- https://iggys4ur.github.io/task-master
+- https://iggys4ur.github.io/mod-05_task-master/
 
 ---
 
@@ -70,7 +70,7 @@ git clone https://github.com/iggys4ur/task-master <PATH_TO_DESTINATION_DIRECTORY
 ```
 
 ## Usage
-Visit the [Deployed Application](https://iggys4ur.github.io/task-master), and start managing your tasks. Use the drag-and-drop feature to update task progress and the modal dialog to create or edit tasks.
+Visit the [Deployed Application](https://iggys4ur.github.io/mod-05_task-master/), and start managing your tasks. Use the drag-and-drop feature to update task progress and the modal dialog to create or edit tasks.
 
 <details>
   <summary>Screenshot(s) of the web app pages</summary>
