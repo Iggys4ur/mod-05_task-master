@@ -1,178 +1,264 @@
 /* General body styles for light and dark mode */
 body.light-mode {
-    background-color: #ffffff;
-    color: #000000;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 body.dark-mode {
-    background-color: #2c2c2c;
-    color: #f0f0f0;
+  background-color: #2c2c2c;
+  color: #f0f0f0;
 }
 
 header.light-mode {
-    background-color: #f8f9fa;
-    color: #000000;
+  background-color: #f8f9fa;
+  color: #000000;
 }
 
 header.dark-mode {
-    background-color: #343a40;
-    color: #ffffff;
+  background-color: #343a40;
+  color: #ffffff;
 }
 
 /* Task Card Styles */
 .task-card {
-    border: 2px solid #4a4a4a; /* Dark gray/purple border for the task card */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px 15px; /* Padding inside the task card */
-    margin-bottom: 15px; /* Space between task cards */
-    background-color: #f9f9f9; /* Light background color for contrast */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    position: relative; /* Positioning for the task card */
+  border: 2px solid #4a4a4a;
+  /* Dark gray/purple border for the task card */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 10px 15px;
+  /* Padding inside the task card */
+  margin-bottom: 15px;
+  /* Space between task cards */
+  background-color: #f9f9f9;
+  /* Light background color for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  position: relative;
+  /* Positioning for the task card */
 }
 
 /* Ribbon for Completed Tasks */
 .ribbon-completed {
-    background-color: #28a745; /* Green background for completed */
-    color: #ffffff; /* White text */
-    padding: 5px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    border-radius: 0 5px 5px 0;
-    font-size: 0.8em;
-    z-index: 1;
+  background-color: #28a745;
+  /* Green background for completed */
+  color: #ffffff;
+  /* White text */
+  padding: 5px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.8em;
+  z-index: 1;
 }
 
 /* Ribbon for Deleted Tasks */
 .ribbon-deleted {
-    background-color: #dc3545; /* Red background for deleted */
-    color: #ffffff; /* White text */
-    padding: 5px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    border-radius: 0 5px 5px 0;
-    font-size: 0.8em;
-    z-index: 1;
+  background-color: #dc3545;
+  /* Red background for deleted */
+  color: #ffffff;
+  /* White text */
+  padding: 5px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.8em;
+  z-index: 1;
 }
 
 /* Footnote for Task Information */
 .task-footnote {
-    background-color: #e9ecef; /* Light gray background */
-    color: #6c757d; /* Muted text color */
-    font-size: 0.75em; /* Smaller text */
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 4px;
+  background-color: #e9ecef;
+  /* Light gray background */
+  color: #6c757d;
+  /* Muted text color */
+  font-size: 0.75em;
+  /* Smaller text */
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 4px;
 }
 
 /* Styling for Notes, Edits, Deadline Updates */
-.task-note, .task-edit, .task-deadline-update {
-    background-color: #f0f0f0; /* Light background */
-    border: 1px solid #cccccc; /* Light border */
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    font-size: 0.9em;
+.task-note,
+.task-edit,
+.task-deadline-update {
+  background-color: #f0f0f0;
+  /* Light background */
+  border: 1px solid #cccccc;
+  /* Light border */
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
 }
 
 /* Task buttons styling */
 .task-card button {
-    margin: 3px; /* Space between buttons */
-    min-width: 60px; /* Minimum width for buttons for consistency */
-    font-size: 0.9em; /* Adjust font size for buttons */
+  margin: 3px;
+  /* Space between buttons */
+  min-width: 60px;
+  /* Minimum width for buttons for consistency */
+  font-size: 0.9em;
+  /* Adjust font size for buttons */
 }
 
 /* Column Header Styles */
 .card-header {
-    background-color: #4a4a4a; /* Dark gray background */
-    color: #ffffff; /* White text for visibility */
-    text-align: center; /* Center align the header text */
+  background-color: #4a4a4a;
+  /* Dark gray background */
+  color: #ffffff;
+  /* White text for visibility */
+  text-align: center;
+  /* Center align the header text */
 }
 
 body.light-mode .card-header {
-    background-color: #f0f0f0; /* Light gray for light mode */
-    color: #000000; /* Black text for light mode */
+  background-color: #f0f0f0;
+  /* Light gray for light mode */
+  color: #000000;
+  /* Black text for light mode */
 }
 
 body.dark-mode .card-header {
-    background-color: #4a4a4a; /* Dark gray for dark mode */
-    color: #ffffff; /* White text for dark mode */
+  background-color: #4a4a4a;
+  /* Dark gray for dark mode */
+  color: #ffffff;
+  /* White text for dark mode */
 }
 
 /* Toggle switch */
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
 
 .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #e0e0e0; /* Light gray track */
-    transition: 0.4s;
-    border-radius: 34px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e0e0e0;
+  /* Light gray track */
+  transition: 0.4s;
+  border-radius: 34px;
 }
 
 .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: #ffffff; /* White slider */
-    transition: 0.4s;
-    border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ffffff;
+  /* White slider */
+  transition: 0.4s;
+  border-radius: 50%;
 }
 
-input:checked + .slider {
-    background-color: #e0e0e0; /* Light gray track */
+input:checked+.slider {
+  background-color: #e0e0e0;
+  /* Light gray track */
 }
 
-input:checked + .slider:before {
-    background-color: #4a4a4a; /* Dark gray slider */
-    transform: translateX(26px);
+input:checked+.slider:before {
+  background-color: #4a4a4a;
+  /* Dark gray slider */
+  transform: translateX(26px);
 }
 
 #themeIcon {
-    position: absolute;
-    top: 7px;
-    left: 10px;
-    font-size: 18px; /* Adjusted size */
-    transition: color 0.4s, left 0.4s;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: 18px;
+  /* Adjusted size */
+  transition: color 0.4s, left 0.4s;
 }
 
 body.light-mode #themeIcon {
-    color: #ffeb3b; /* Golden-yellow sun icon */
+  color: #ffeb3b;
+  /* Golden-yellow sun icon */
 }
 
 body.dark-mode #themeIcon {
-    color: #9c27b0; /* Purple-lavender moon icon */
+  color: #9c27b0;
+  /* Purple-lavender moon icon */
 }
 
-input:checked + .slider + #themeIcon {
-    left: 34px;
+input:checked+.slider+#themeIcon {
+  left: 34px;
 }
 
 /* Modal and Backdrop Management */
 .modal-backdrop {
-    z-index: 1040 !important;
-    opacity: 0.5 !important; /* To match the original behavior */
+  z-index: 1040 !important;
+  opacity: 0.5 !important;
+  /* To match the original behavior */
 }
 
 .modal {
-    z-index: 1050 !important;
+  z-index: 1050 !important;
+}
+
+/* Styles for Deleted Column */
+#deleted {
+  background-color: #ffcccb;
+  /* Light orange/red color for deleted tasks */
+}
+
+#deleted .task-card {
+  background-color: #ffe6e6;
+  /* Lighter color to indicate deletion */
+  border-color: #ff6f61;
+  /* Border color to highlight deleted tasks */
+}
+
+/* Red Ribbon for Deleted Tasks */
+.ribbon-deleted {
+  background-color: #dc3545;
+  /* Red background for deleted */
+  color: #ffffff;
+  /* White text */
+  padding: 5px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.8em;
+  z-index: 2;
+}
+
+/* Adjusting Task Card Layout */
+.task-card .task-note,
+.task-card .task-edit,
+.task-card .task-deadline-update {
+  background-color: #f7f7f7;
+  /* Light background */
+  border: 1px solid #cccccc;
+  /* Light border */
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Container for each type of task detail */
+.task-card .note-container,
+.task-card .deadline-update-container {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
 }
