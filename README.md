@@ -1,6 +1,6 @@
 
-# Task Master: Manage Your Project Tasks Efficiently
-TaskMaster is your ultimate project management ally. With a sleek, dynamic interface, powered by jQuery and Day.js, TaskMaster makes organizing tasks a breeze. Drag, drop, and conquer your to-do list effortlessly. Love TaskMaster? Show your support!
+# [Module 5] Task Master: Manage Your Project Tasks Efficiently
+TaskMaster is your ultimate project management ally. With a sleek, dynamic interface, powered by jQuery and Day.js, TaskMaster makes organizing tasks a breeze. Drag, drop, and conquer your to-do list effortlessly.
 
 ### What I Learned From This Project
 This project enhanced my skills in using jQuery for dynamic HTML and CSS updates, working with the Day.js library for date manipulations, and implementing client-side storage solutions using localStorage.
@@ -55,10 +55,10 @@ The main tasks and objectives of the project included developing a responsive us
 ## Submission
 
 GitHub repo
-- https://github.com/iggys4ur/task-master
+- https://github.com/iggys4ur/mod-05_task-master/
 
 Deployed Application
-- https://iggys4ur.github.io/task-master
+- https://iggys4ur.github.io/mod-05_task-master/
 
 ---
 
@@ -70,23 +70,23 @@ git clone https://github.com/iggys4ur/task-master <PATH_TO_DESTINATION_DIRECTORY
 ```
 
 ## Usage
-Visit the [Deployed Application](https://iggys4ur.github.io/task-master), and start managing your tasks. Use the drag-and-drop feature to update task progress and the modal dialog to create or edit tasks.
+Visit the [Deployed Application](https://iggys4ur.github.io/mod-05_task-master/), and start managing your tasks. Use the drag-and-drop feature to update task progress and the modal dialog to create or edit tasks.
 
 <details>
   <summary>Screenshot(s) of the web app pages</summary>
 <p>&nbsp;</p>
 <p>Main dashboard displaying the task list and navigation menu.</p>
 
-![alt text](./assets/images/screenshot1.png)
+![alt text](./assets/img/task-list.png)
 <p>&nbsp;</p>
 <p>Task creation modal where users can add new tasks with priority and deadline options.</p>
 
-![alt text](./assets/images/screenshot2.png)
+![alt text](./assets/img/task-creation.png)
 </details>
 &nbsp;
 
 ## Credits
-Special thanks to the following resources and individuals for their support and guidance.
+Special thanks to the following resources.
 - [Stack Overflow](https://stackoverflow.com/)
 - [Reddit](https://reddit.com/)
 - [GitHub Community Discussions](https://github.com/orgs/community/discussions/)
